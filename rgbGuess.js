@@ -22,6 +22,7 @@ for(var i = 0; i < squares.length; i++){
 			messageDisplay.textContent = "Correct!"
 			changeColors(clickedColor);
 			h1.style.background = clickedColor
+			newColors.textContent = "Play Again?";
 		} else {
 			messageDisplay.textContent = "Try Again"
 			this.style.background = "#232323";
@@ -36,8 +37,9 @@ newColors.addEventListener("click", function() {
 	for(var i=0;i<squares.length;i++) {
 		squares[i].style.background=colors[i];
 	}
-	newColors.textContent = "Play Again?";
-	h1.style.background = "#232323";
+	newColors.textContent = "New Colors";
+	h1.style.background = "steelblue";
+	messageDisplay.textContent = "";
 
 })
 
@@ -55,8 +57,8 @@ easyButton.addEventListener("click", function(){
 			squares[i].style.display = "none"
 		}
 	}
-	newColors.textContent = "Play Again?";
-	h1.style.background = "#232323";
+	messageDisplay.textContent = "";
+	h1.style.background = "steelblue";
 
 
 })
@@ -72,9 +74,11 @@ hardButton.addEventListener("click", function(){
 		squares[i].style.background=colors[i];
 		squares[i].style.display = "block";
 	}
-	newColors.textContent = "Play Again?";
-	h1.style.background = "#232323";
+	messageDisplay.textContent = "";
+	h1.style.background = "steelblue";
 })
+
+
 
 
 
