@@ -1,0 +1,31 @@
+body {
+	height: 100%;
+	width: 100%;
+}
+
+
+#generatedColors {
+	background-color: #232323;
+	height: 33%;
+	width: 100%;
+}
+
+#options {
+	background-color: white;
+	height: 33%;
+	width: 100%;
+}
+
+#banner {
+	background-color: blue;
+	height: 33%;
+	width: 100%;
+}
+
+
+.square {
+	padding: 5px;
+	margin: 1.66%;
+	background-color: purple;
+	margin: auto;
+}
