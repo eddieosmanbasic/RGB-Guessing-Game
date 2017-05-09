@@ -4,11 +4,9 @@ body {
 
 h1 {
 	color: white;
+	text-align: center;
 }
 
-#message {
-	color: white;
-}
 
 .square {
 	width: 30%;
@@ -21,4 +19,15 @@ h1 {
 #container {
 	margin: 0 auto;
 	max-width: 600px;
+}
+
+#bar {
+	background-color: white;
+	text-align: center;
+	height: 30px;z
+}
+
+.selected {
+	background-color: rgb(41, 139, 181);
+	color: white;
 }
