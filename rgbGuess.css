@@ -1,31 +1,24 @@
 body {
-	height: 100%;
-	width: 100%;
-}
-
-
-#generatedColors {
 	background-color: #232323;
-	height: 33%;
-	width: 100%;
 }
 
-#options {
-	background-color: white;
-	height: 33%;
-	width: 100%;
+h1 {
+	color: white;
 }
 
-#banner {
-	background-color: blue;
-	height: 33%;
-	width: 100%;
+#message {
+	color: white;
 }
-
 
 .square {
-	padding: 5px;
+	width: 30%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
 	margin: 1.66%;
-	background-color: purple;
-	margin: auto;
+}
+
+#container {
+	margin: 0 auto;
+	max-width: 600px;
 }
